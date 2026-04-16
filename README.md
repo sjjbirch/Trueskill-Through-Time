@@ -1,31 +1,38 @@
 # TrueskillThroughTime
 
-TODO: Delete this and the text below, and describe your gem
+This is a port of Trueskill Through Time (https://github.com/glandfried/TrueSkillThroughTime.py) to Ruby.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/TrueskillThroughTime`. To experiment with that code, run `bin/console` for an interactive prompt.
+At present, v1.1.0 of TrueskillThroughTime.py is the ported version, corresponding to v1 of this gem.
+
+In my test cases (large and complicated n vs n vs n etc FFA histories) it was approximately 1/4 to 1/3 faster than the target Python implementation, but I'm sure ymmv.
+
+The gem was tested on Ruby 3.2.5 patch level 208, but there is no reason it shouldn't work on newer versions or older versions.
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+    $ bundle add Trueskill-Through-Time
 
 ## Usage
 
-TODO: Write usage instructions here
+Usage patterns have been kept identical to those of the source version, so their documentation should basically work. Their documentation is at: https://trueskillthroughtime.readthedocs.io/en/latest/
 
-## Development
+If you do not converge your results in a History instance, then your usage is equivalent to the original Trueskill implementation, license and patents. If you do converge results, then your usage will fall under the later Trueskill Through Time implementation, license and patent.
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+If you want to go poking around, any time a Tuple is used in the Python version, a two-element Array is used in Ruby.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Finally, example usage is contained as the methods `game_example` and `history_example`, which mirror the examples given in the Python documentation. An additional, more complicated example is given as `liquid_example` using data from the Liquipedia API (https://liquipedia.net) under the CC-BY-SA 3 license. If you use this example data, then your usage must also comply with that license.
+
+Otherwise, a convenience method `evidence` is added to the history class to get the discrete evidence by event. I will add some more convenience methods when I update the gem and alter the interfaces.
+
+## Licensing
+The original Trueskill and Trueskill Through Time are covered by the BSD license and separate Microsoft patents. One of these sets will apply to your usage, depending whether you converge your results. Notably, the only allowed uses either way are non-commercial products or XBox Live games.
+
+The Liquipedia data used in the example is provided under CC-BY-SA 3.0, and if you use it then it will apply to your use.
+
+Finally, this implementation is distributed under the Clear BSD License.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/TrueskillThroughTime.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sjjbirch/TrueskillThroughTime. Probably hold off on PRs until it gets to v2, which I intend to be a less directly ported version with more convenience methods.
