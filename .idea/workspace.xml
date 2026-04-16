@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cccfe11-d9d4-4261-b533-95d58b839d14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENCE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrueskillThroughTime.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/TrueskillThroughTime.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/TrueskillThroughTime.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TrueskillThroughTime.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/TrueskillThroughTime/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TrueskillThroughTime/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776322123090</updated>
-      <workItem from="1776322124389" duration="3689000" />
+      <workItem from="1776322124389" duration="4698000" />
     </task>
     <servers />
   </component>
