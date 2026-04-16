@@ -12,7 +12,7 @@ The gem was tested on Ruby 3.2.5 patch level 208, but there is no reason it shou
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add Trueskill-Through-Time
+    $ bundle add TrueskillThroughTime
 
 ## Usage
 
