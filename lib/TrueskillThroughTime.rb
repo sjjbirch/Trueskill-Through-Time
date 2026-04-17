@@ -25,11 +25,11 @@ module TrueskillThroughTime
   # Default mean average skill.
   # This is the value every player looks at and marvels at. Ironically it is a completely arbitrary and meaningless number.
   MU = 0.0              # Original Trueskill default is 25.
+  # Class skill width. The difference in skill where a better player should beat a worse player 80% of the time.
+  BETA = 1.0            #  Original Trueskill default is SIGMA/2
   # Default standard deviation of uncertainty. 95.4% of players should fall into +/- 2*SIGMA of the mean.
   # Note that this value only means anything in the context of BETA and GAMMA.
   SIGMA = BETA * 6.0    # Original Trueskill default is MU/3
-  # Class skill width. The difference in skill where a better player should beat a worse player 80% of the time.
-  BETA = 1.0            #  Original Trueskill default is SIGMA/2
   # Additive dynamics factor, also called tau in Trueskill (name clashes with Gaussian tau).
   GAMMA = BETA * 0.03   #  Original Trueskill default is BETA/100
   # The empirically observed probability of a global draw. If observation is not available, then this should be optimised.
