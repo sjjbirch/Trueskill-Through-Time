@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cccfe11-d9d4-4261-b533-95d58b839d14" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrueskillThroughTime.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/TrueskillThroughTime.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TrueskillThroughTime.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TrueskillThroughTime.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sig/TrueskillThroughTime.rbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_TrueskillThroughTime.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +22,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3CQeG8eh43XRpG9r1qi8YrgDZY2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -27,10 +37,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Ruby.TrueskillThroughTime.executor": "Run",
     "Ruby.ttt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "last_opened_file_path": "/home/sjb/RubymineProjects/TrueskillThroughTime/lib/example_data",
+    "last_opened_file_path": "/home/sjb/RubymineProjects/TrueskillThroughTime",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,10 +73,25 @@
       <option name="presentableId" value="Default" />
       <updated>1776322123090</updated>
       <workItem from="1776322124389" duration="4698000" />
+      <workItem from="1776327078964" duration="23727000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TrueskillThroughTime@TrueskillThroughTime.rcov" NAME="TrueskillThroughTime Coverage Results" MODIFIED="1776407366699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TrueskillThroughTime" />
   </component>
 </project>
